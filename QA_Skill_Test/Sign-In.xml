@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Sign-Up">
+    <classes>
+      <class name="Authentication_Package.registration"/>
+    </classes>
+    </test>
+     <test  name="Sign_In">
+    <classes>
+      <class name="Authentication_Package.login"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
